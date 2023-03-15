@@ -1,0 +1,9 @@
+.navbar-head {
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+
+.nav-link {
+    margin-inline: 2rem;
+    font-size: 1.2vw;
+}

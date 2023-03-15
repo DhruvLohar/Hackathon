@@ -5,15 +5,22 @@
 * {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 
 body {
+  color: #252525;
+  overflow-x: hidden;
+  background-color: #FFF2F2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "PorticoOutline";
+  src: url('fonts/PorticoOutline.otf') format('opentype');
 }

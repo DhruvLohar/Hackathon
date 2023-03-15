@@ -14,14 +14,16 @@ function App() {
   return (
     <>
       <Router>
-        <div id="root-container">
-          <div className="relative">
+        <div id="relative root-container">
+          <div className="sticky" style={{ top: "1rem", paddingInline: "8vw" }}>
             <Navbar />
           </div>
 
-          <Routes>
-            <Route exact path='/' element={<LandingPage />} />
-          </Routes>
+          <div className="root-content">
+            <Routes>
+              <Route exact path='/' element={<LandingPage />} />
+            </Routes>
+          </div>
         </div>
       </Router>
     </>

@@ -27,7 +27,7 @@ export default function LandingPage() {
     return (
         <>
             <section className={`${layout.sectionColumn}`}>
-                <h1 className="font-bold" style={{ "fontSize": "5vw", cursor: "pointer" }} onClick={connectToMetamask}>
+                <h1 className="font-outline font-bold" style={{ "fontSize": "5vw", cursor: "pointer" }} onClick={connectToMetamask}>
                     {error 
                         ? error
                         : "Connect to Metamask"

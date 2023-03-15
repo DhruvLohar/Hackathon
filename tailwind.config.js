@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00020f"
+        black: "#252525"
+      },
+      fontFamily: {
+        outline: "PorticoOutline"
       }
     },
   },
