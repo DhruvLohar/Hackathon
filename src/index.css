@@ -16,6 +16,7 @@ body {
   color: #252525;
   overflow-x: hidden;
   background-color: #FFF2F2;
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32,4 +33,30 @@ body {
 @font-face {
   font-family: "Aquatico";
   src: url('fonts/Aquatico.otf') format('opentype');
+}
+
+/* Input Element */
+
+.input-group span {
+  --size: 2.6vh;
+
+  position: absolute;
+  top: calc(50% - (var(--size) / 2));
+  left: 2vh;
+  
+  font-size: var(--size);
+  color: #252525;
+}
+
+.input-group input {
+  padding: .8rem 1rem;
+  height: 4vw;
+  /* padding-left: 6vh; */
+  outline: none;
+  border: 1px solid #252525;
+  border-radius: 1.8rem;
+  background: transparent;
+  font-size: 2vh;
+  font-family: 'Montserrat';
+  transition: border .3s ease;
 }
