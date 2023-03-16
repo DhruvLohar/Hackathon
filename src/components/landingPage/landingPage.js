@@ -61,7 +61,7 @@ export default function LandingPage() {
 
     return (
         <>
-            <section className={`relative landing-page ${layout.sectionColumn}`}>
+            <section className={`landing-page ${layout.sectionColumn}`}>
                 {/* <h1 className="font-outline font-bold" style={{ "fontSize": "5vw", cursor: "pointer" }} onClick={connectToMetamask}>
                     {error 
                         ? error
@@ -118,9 +118,9 @@ export default function LandingPage() {
                     <span>Recallable</span>
                 </div>
             </div>
-            <section className={`relative about-page ${layout.sectionColumn}`}></section>
-            <section className={`relative buisness-page ${layout.sectionColumn}`}></section>
-            <section className={`relative contact-us-page ${layout.sectionColumn}`}></section>
+            <section className={`about-page ${layout.sectionColumn}`}></section>
+            <section className={`buisness-page ${layout.sectionColumn}`}></section>
+            <section className={`contact-us-page ${layout.sectionColumn}`}></section>
         </>
     )
 }

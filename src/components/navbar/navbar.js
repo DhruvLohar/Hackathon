@@ -13,7 +13,9 @@ export default function Navbar() {
                     <a href="#" className='nav-link'>About</a>
                     <a href="#" className='nav-link'>Contact</a>
                 </div>
-                <Button text="Get Started" />
+                <a href="/get-started" style={{ textDecoration: "none" }}>
+                    <Button text="Get Started" />
+                </a>
             </div>
         </nav>
     )
