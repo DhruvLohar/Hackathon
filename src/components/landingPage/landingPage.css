@@ -1,0 +1,39 @@
+/* section landing page views */
+
+.title-text span {
+    color: #3A1078;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+
+.image-rotate {
+    animation: rotate 10s linear infinite;
+}
+
+.star-1, .star-2 {
+    width: 12vw;
+    top: 40%;
+}
+
+.star-1 {
+    left: -6%;
+}
+
+.star-2 {
+    right: -6%;
+}
+
+/* section animate words views */
+.animate-words {
+    font-size: 4.5vw;
+}
+
+.word-line span {
+    margin-inline: .5rem;
+}

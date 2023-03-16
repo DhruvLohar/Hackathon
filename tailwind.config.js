@@ -9,6 +9,7 @@ module.exports = {
         black: "#252525"
       },
       fontFamily: {
+        title: "Aquatico",
         outline: "PorticoOutline"
       }
     },

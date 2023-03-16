@@ -5,15 +5,15 @@ import Button from '../Button';
 
 export default function Navbar() {
     return (
-        <nav className='navbar'>
+        <nav className='navbar mt-6'>
             <div className={`container ${styles.flexBetween}`}>
-                <a href="#" className='navbar-head'>Auto</a>
+                <a href="#" className='font-title navbar-head'>PASSIMOJI</a>
                 <div className={`${styles.flexCenter}`}>
                     <a href="#" className='nav-link'>Home</a>
                     <a href="#" className='nav-link'>About</a>
                     <a href="#" className='nav-link'>Contact</a>
                 </div>
-                <Button text="Connect to MetaMask" icon="true" />
+                <Button text="Get Started" />
             </div>
         </nav>
     )

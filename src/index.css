@@ -8,6 +8,10 @@
   scroll-behavior: smooth; 
 }
 
+::root {
+  --primary-color: #3A1078;
+}
+
 body {
   color: #252525;
   overflow-x: hidden;
@@ -23,4 +27,9 @@ body {
 @font-face {
   font-family: "PorticoOutline";
   src: url('fonts/PorticoOutline.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Aquatico";
+  src: url('fonts/Aquatico.otf') format('opentype');
 }
